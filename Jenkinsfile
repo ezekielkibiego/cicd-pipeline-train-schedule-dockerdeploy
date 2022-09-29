@@ -30,7 +30,7 @@ pipeline {
 
                 script { 
 
-                    app = docker.build("<DOCKER_HUB_USERNAME>/train-schedule") 
+                    app = docker.build("kibiego/train-schedule") 
 
                     app.inside { 
 
